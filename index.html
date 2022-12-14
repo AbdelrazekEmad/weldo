@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metals Design Factory</title>
+    <!-- Google Fonts CDN  -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- css for bootstrap 5 v5.2.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Css for font Awesome CDN v6.2.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css for Owl Carousel v2.3.4  -->
+    <link rel="stylesheet" href="./css/vendor/owl.carousel.css">
+    <link rel="stylesheet" href="./css/vendor/owl.theme.default.min.css">
+    <!-- Main Css File  -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <!-- Scroll to Top Btn  -->
+    <button class="position-fixed btn main__color fs-1" onclick="topFunction()" id="scroll-top" title="Go to top"><i
+            class="fa-solid fa-circle-chevron-up"></i></button>
+
+    <!-- Start Hero Section  -->
+    <header class="position-relative">
+        <Section class="top-0 start-0 end-0">
+            <!-- Start Upperbar  -->
+            <Section class="upperbar position-absolute py-3 w-100">
+                <div class="container">
+                    <div class="d-flex justify-content-between">
+                        <!-- address  -->
+                        <div class="d-lg-inline-block d-none">
+                            <span>
+                                <i class="fa-solid fa-location-dot main-icon"></i>
+                            </span>
+                            <span class="text-white fw-light">2231 Johnstown Road Bensenville, IL 60106</span>
+                        </div>
+                        <!-- mail  -->
+                        <div class="d-inline-block ">
+                            <span>
+                                <i class="fa-solid fa-envelope main-icon"></i>
+                            </span>
+                            <span class="text-white fw-light main-hover">test@mail.com</span>
+                        </div>
+                        <!-- phone  -->
+                        <div class="d-inline-block">
+                            <span>
+                                <i class="fa-solid fa-phone-flip main-icon"></i></i>
+                            </span>
+                            <span class="text-white fw-light main-hover">01113256187</span>
+                        </div>
+                        <!-- social  -->
+                        <div class="d-lg-inline-block d-none">
+                            <span>
+                                <i class="fa-brands fa-facebook-f main-hover text-white mx-2"></i>
+                            </span>
+                            <span>
+                                <i class="fa-brands fa-twitter main-hover text-white mx-2"></i>
+                            </span>
+                            <span>
+                                <i class="fa-brands fa-linkedin-in main-hover text-white mx-2"></i>
+                            </span>
+                            <span>
+                                <i class="fa-brands fa-instagram main-hover text-white mx-2"></i>
+                            </span>
+                            <span>
+                                <i class="fa-brands fa-youtube main-hover text-white mx-2"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+            <!-- End Upperbar  -->
+            <!-- Start navbar Section  -->
+            <section id="navgationbar" class="navgationbar position-fixed w-100">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <div class="container-fluid">
+                            <a class="navbar-brand d-flex align-items-center" href="./index.html">
+                                <img src="./imgs/header/logo.webp" alt="Logo" width="65"
+                                    class="d-inline-block align-text-top">
+                                <span class="main-heading fs-2 ms-2">Weldo</span>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <h4 class="navbar-toggler-icon"></h4>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item py-1 py-lg-4 mx-1 mx-lg-2">
+                                        <a class="nav-link main-hover text-white active" aria-current="page"
+                                            href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item py-1 py-lg-4 mx-1 mx-lg-2">
+                                        <a class="nav-link main-hover text-white" href="#">Services</a>
+                                    </li>
+                                    <li class="nav-item py-1 py-lg-4 mx-1 mx-lg-2">
+                                        <a class="nav-link main-hover text-white" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item py-1 py-lg-4 mx-1 mx-lg-2">
+                                        <a class="nav-link main-hover text-white" href="#">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item py-1 py-lg-4 mx-1 mx-lg-2">
+                                        <a class="nav-link main-hover text-white" href="#">News</a>
+                                    </li>
+                                    <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown link
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+            <!-- End navbar Section  -->
+        </Section>
+        <div class="owl-carousel owl-carousel-hero owl-theme">
+            <div class="item Slider-1 position-relative">
+                <div class="slider__info">
+                    <h2 class="intro-shadow-word">Welding</h2>
+                    <div class="slider__heading text-white">
+                        <h2>Welding <span class="main__color mx-2">&</span> Iron Works</h2>
+                        <span class="slider__spacing">WE BUILD <span class="main__color">THE BEST.</span></span>
+                        <a href="#cofounder"><i class="fa-solid fa-arrow-down main-icon fs-1 d-block mt-4"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item Slider-2 position-relative">
+                <div class="slider__info">
+                    <h2 class="intro-shadow-word">Welding</h2>
+                    <div class="slider__heading text-white ">
+                        <h2>Welding <span class="main__color mx-2">&</span> Iron Works</h2>
+                        <span class="slider__spacing">WE BUILD <span class="main__color">THE BEST.</span></span>
+                        <a href="#cofounder"><i class="fa-solid fa-arrow-down main-icon fs-1 d-block mt-4"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item Slider-3 position-relative">
+                <div class="slider__info">
+                    <h2 class="intro-shadow-word">Welding</h2>
+                    <div class="slider__heading text-white ">
+                        <h2>Welding <span class="main__color mx-2">&</span> Iron Works</h2>
+                        <span class="slider__spacing">WE BUILD <span class="main__color">THE BEST.</span></span>
+                        <a href="#cofounder"><i class="fa-solid fa-arrow-down main-icon fs-1 d-block mt-4"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Hero Section  -->
+
+    <!-- Start Steps Section  -->
+    <section class="steps">
+        <div class="steps__bg">
+            <div class="row text-white">
+                <div class="col col-lg-4 col-md-6 col-12">
+                    <div class="Steps__text text-center">
+                        <h2>01</h2>
+                        <Span>GIVE US A CALL</Span>
+                        <p>Your official source for 24/7 Weldo support</p>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-12">
+                    <div class="Steps__text text-center">
+                        <h2>02</h2>
+                        <Span>EVALUATE THE COST</Span>
+                        <p>Cost analysis helps evaluate contract profitability</p>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-12">
+                    <div class="Steps__text text-center">
+                        <h2>03</h2>
+                        <Span>GET THE JOB DONE!</Span>
+                        <p>To fulfil one's task, to do what is required to do</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Steps Section  -->
+
+    <!-- Start COFOUNDER  -->
+    <section id="cofounder" class="cofounder">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <div class="image">
+                        <img src="./imgs/About/founder01.jpg" alt="co.founder">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-12">
+                    <div class="cofounder__text">
+                        <h2 class="cofounder__heading mb-4">Gerald <span class="main-heading">Evans</span></h2>
+                        <span class="cofounder__subh">COFOUNDER</span>
+                        <p class="text-muted mt-4 fs-6">Since 1999, Weldo has been servicing all of San Diego. Our
+                            Mission is
+                            to work
+                            diligently and
+                            efficiently with every client ensuring a smooth and painless process, while we make their
+                            vision
+                            into reality. </p>
+                        <p class="text-muted mb-4">With our knowledge and experience, it is our goal to attend to our
+                            clients
+                            needs, going above and
+                            beyond their expectations. Long's Welding is your choice for the highest quality and most
+                            innovative ideas in iron metal works and ornamentals.</p>
+                        <h3 class="cofounder__heading fs-3 mb-3">Why <span class="main-heading fs-3">Choose Us</span>
+                        </h3>
+                        <ul class="text-muted fw-light">
+                            <li>Superior precise quality welds</li>
+                            <li>Welds can be made with little or no filler</li>
+                            <li>Precise control of welding variables</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End COFOUNDER  -->
+
+    <!-- Start Products  -->
+    <section class="ourproducts my-5">
+        <div class="ovarlay p-5">
+            <div class="container">
+                <div class="ourproducts__heading d-flex flex-column align-items-center mb-5  ">
+                    <h2 class="cofounder__heading text-white mb-4">Our <span class="main-heading">Products</span></h2>
+                    <span class="cofounder__subh text-white text-center">WELDO METAL FABRICATION</span>
+                </div>
+                <div class="ourproducts__info">
+                    <div
+                        class="row row-cols-lg-3 row-cols-md-2 row-cols-1 text-white justify-content-center text-center gy-5">
+                        <div class="col">
+                            <h3>01</h3>
+                            <a href="">
+                                <h2 class="main-heading">Titanium <span class="text-white main-hover">Welding</span>
+                                </h2>
+                            </a>
+                            <p>There are a few different processes that we use at JA</p>
+                        </div>
+                        <div class="col">
+                            <h3>02</h3>
+                            <a href="">
+                                <h2 class="main-heading">Titanium <span class="text-white main-hover">Welding</span>
+                                </h2>
+                            </a>
+                            <p>The right process can make all the difference</p>
+                        </div>
+                        <div class="col">
+                            <h3>03</h3>
+                            <a href="">
+                                <h2 class="main-heading">Titanium <span class="text-white main-hover">Welding</span>
+                                </h2>
+                            </a>
+                            <p>We will work with you to figure out what you need</p>
+                        </div>
+                        <div class="col">
+                            <h3>04</h3>
+                            <a href="">
+                                <h2 class="main-heading">Titanium <span class="text-white main-hover">Welding</span>
+                                </h2>
+                            </a>
+                            <p>Help you understand what we are doing, if it is something that concerns you</p>
+                        </div>
+                        <div class="col">
+                            <h3>05</h3>
+                            <a href="">
+                                <h2 class="main-heading">Titanium <span class="text-white main-hover">Welding</span>
+                                </h2>
+                            </a>
+                            <p>Welding and fabrication is what we are passionate about here at JA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ENd products  -->
+
+    <!-- Start Gallary  -->
+    <section class="gallary my-5">
+        <div class="ourproducts__heading d-flex flex-column align-items-center mb-5  ">
+            <h2 class="cofounder__heading text-white mb-4">Our <span class="main-heading">Gallery</span></h2>
+            <span class="cofounder__subh text-center">WELDO METAL FABRICATION</span>
+        </div>
+        <div class="container">
+            <div class="owl-carousel owl-carousel-gallary owl-theme">
+                <div class="item">
+                    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 gy-2 ">
+                        <div class="col">
+                            <img src="./imgs/header/slide02.webp" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./imgs/header/slide02.webp" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./imgs/header/slide02.webp" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./imgs/header/slide02.webp" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./imgs/header/slide02.webp" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./imgs/header/slide02.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 gy-2 ">
+                        <div class="col">
+                            <img src="./imgs/header/slide01.webp" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./imgs/header/slide01.webp" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./imgs/header/slide01.webp" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./imgs/header/slide01.webp" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./imgs/header/slide01.webp" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="./imgs/header/slide01.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Gallary  -->
+
+    <!-- Start Quote -->
+    <!-- <section class="quote my-5">
+        <div class="row">
+            <div class="col-7">
+                <div class="image"><img class="img-fluid" src="./imgs/quote/shutterstock_1297122796.jpg" alt=""></div>
+            </div>
+            <div class="col-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- End Quote -->
+
+
+
+
+
+
+
+
+
+
+    <!-- Js for bootstrap 5 v5.2.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <!-- jQuery v3.6.1 -->
+    <script src="./js/vendors/jQuery.min.js"></script>
+    <!-- Js for Owl Carousel v2.3.4  -->
+    <script src="./js/vendors/owl.carousel.min.js"></script>
+    <!-- Main Script  -->
+    <script src="./js/main.js"></script>
+    <!-- Js for Font Awesome CDN v6.2.1 -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+        integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+</body>
+
+</html>
