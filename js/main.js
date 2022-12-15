@@ -26,7 +26,6 @@ window.onscroll = function () {
   }
 };
 
-
 // Start Slider Hero
 $(".owl-carousel-hero").owlCarousel({
   loop: true,
@@ -66,23 +65,22 @@ $(".owl-carousel-gallary").owlCarousel({
 });
 
 $(".owl-carousel-testimonial").owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    navSpeed: 500,
-    autoplay: true,
-    autoplaySpeed: 650,
-    animateOut: "fadeOut",
-    responsive: {
-      0: {
-        items: 1,
-      },
-      500: {
-        items: 2,
-      },
-      1000: {
-        items: 2,
-      },
+  loop: true,
+  margin: 10,
+  nav: true,
+  navSpeed: 500,
+  autoplay: true,
+  autoplaySpeed: 650,
+  animateOut: "fadeOut",
+  responsive: {
+    0: {
+      items: 1,
     },
-  });
-  
+    500: {
+      items: 2,
+    },
+    1000: {
+      items: 2,
+    },
+  },
+});
