@@ -26,9 +26,6 @@ window.onscroll = function () {
   }
 };
 
-window.addEventListener("scroll", () => {
-  console.log(document.documentElement.scrollTop);
-});
 
 // Start Slider Hero
 $(".owl-carousel-hero").owlCarousel({

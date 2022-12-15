@@ -69,7 +69,16 @@ ul {
     opacity: 0.95;
   }
 }
-
+.navbar-toggler-icon {
+  background-image: url(../imgs/Hamburger_icon_white.svg.png) !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
 /* Start Slider  */
 .owl-carousel-hero .item {
   height: 100vh;
@@ -131,7 +140,7 @@ ul {
   flex-direction: column;
   color: white;
 }
-.owl-theme .owl-dots .active span {
+.owl-carousel-hero .owl-theme .owl-dots .active span {
   background-color: var(--main-color) !important;
 }
 @media (max-width: 768px) {
@@ -175,6 +184,7 @@ ul {
   width: 100%;
   box-shadow: 0 16px 20px 0px rgb(0 0 0 / 25%);
   border-radius: 10px;
+  margin-top: -3rem;
 }
 .cofounder__text {
   padding: 2.5rem 1.5rem;
@@ -188,7 +198,7 @@ ul {
   letter-spacing: 0.5rem;
   font-weight: 600;
 }
-.cofounder__text > span::after {
+.cofounder__subh::after {
   content: "";
   width: 100px;
   height: 1.5px;
@@ -216,12 +226,12 @@ ul {
   position: relative;
   height: 700px;
 }
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .ourproducts {
     height: 900px;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 779px) {
   .ourproducts {
     height: 1400px;
   }
@@ -258,8 +268,63 @@ ul {
 }
 
 /* Start Quote */
-.quote .image {
-  /* background-image: url(../imgs/quote/shutterstock_1297122796.jpg);
-  width: 100%;
-  height: auto; */
+.quote {
+  background-color: #f7f8f8;
+}
+.quote__form__wrapper {
+  margin-inline: 3rem;
+}
+.quote__form {
+  margin-inline-end: 3rem;
+}
+@media (max-width: 990px) {
+  .quote__form__wrapper {
+    margin-inline: 2rem;
+  }
+  .quote__form {
+    margin-inline-end: 2rem;
+  }
+}
+@media (max-width: 779px) {
+  .quote__form {
+    margin-inline-end: 0;
+  }
+  .quote__form__wrapper {
+    margin-inline: 1rem;
+  }
+}
+.quote__form .form-floating {
+  border-radius: 0;
+  padding: 1rem 0.5rem 0 0;
+  color: black;
+}
+.quote__form .form-floating .form-control {
+  border-radius: 0;
+}
+.quote__form .form-floating .form-control:focus {
+  border: 1px solid #ced4da;
+  box-shadow: none;
+}
+.quote__form .form-floating label {
+  margin: 1rem 0 0 0;
+}
+.form-floating label {
+  color: #6c757d;
+}
+.form-floating > .form-control:focus ~ label {
+  color: var(--main-color);
+}
+.form__submit {
+  background-color: var(--main-color);
+  color: var(--secound-color);
+  padding-inline: 3rem;
+  padding-block: 1rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  border-radius: 0;
+  margin-block-start: 3rem;
+}
+.form__submit:hover {
+  background-color: var(--secound-color);
+  color: white;
 }
