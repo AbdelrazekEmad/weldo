@@ -33,7 +33,7 @@ $(".owl-carousel-hero").owlCarousel({
   nav: false,
   navSpeed: 500,
   autoplay: true,
-  autoplaySpeed: 650,
+  autoplaySpeed: 750,
   animateOut: "fadeOut",
   responsive: {
     0: {

@@ -128,13 +128,13 @@ ul {
   top: 50%;
   transform: translateY(-50%);
 }
-.slider__heading h2 {
-  font-size: 5rem;
+.slider__heading h3 {
+  font-size: 4rem;
   font-family: var(--ffamily-atoun);
   font-weight: 500;
 }
 .slider__spacing {
-  letter-spacing: 1rem;
+  letter-spacing: 0.25rem;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 30px;
@@ -188,6 +188,9 @@ ul {
 }
 
 /* Start cofounder */
+.cofounder {
+  margin-top: -10rem;
+}
 .cofounder .image img {
   width: 100%;
   box-shadow: 0 16px 20px 0px rgb(0 0 0 / 25%);
