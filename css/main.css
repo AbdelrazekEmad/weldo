@@ -366,24 +366,42 @@ ul {
   height: 100%;
   padding-block: 4rem;
 }
+.testimonial__card {
+  overflow: visible;
+  box-shadow: 0 16px 20px 0px rgb(0 0 0 / 25%);
+}
+.card__usericon {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin-inline: 1rem;
+  background-color: var(--secound-color);
+}
+.card__usericon i {
+  font-size: 2rem;
+  color: var(--main-color);
+  transition: all 0.3s ease-in-out;
+}
+.card__header:hover .card__usericon {
+  background-color: var(--main-color);
+}
+.card__header:hover .card__usericon i {
+  color: var(--secound-color);
+}
+.card__text {
+  margin-inline-start: 1.5rem;
+}
 
 /* Start learn more */
 .learn-more {
   background-color: var(--section-bg-color);
 }
 .learn-more__info p {
-  width: 50%;
+  width: 75%;
 }
 .learn-more__info button {
   width: 25%;
-}
-@media (max-width: 990px) {
-  .learn-more__info p {
-    width: 75% !important;
-  }
-  .learn-more__info button {
-    width: 25% !important;
-  }
 }
 @media (max-width: 779px) {
   .learn-more__info p {
