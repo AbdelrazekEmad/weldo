@@ -26,22 +26,6 @@ window.onscroll = function () {
   }
 };
 
-// Start Slider Hero
-$(".owl-carousel-hero").owlCarousel({
-  loop: true,
-  margin: 0,
-  nav: false,
-  navSpeed: 500,
-  autoplay: true,
-  autoplaySpeed: 750,
-  animateOut: "fadeOut",
-  responsive: {
-    0: {
-      items: 1,
-    },
-  },
-});
-
 // cheap of dots for slider
 $(".owl-carousel-hero .owl-dot span").css({
   background: "white",
@@ -49,38 +33,8 @@ $(".owl-carousel-hero .owl-dot span").css({
   height: "20px",
 });
 
-$(".owl-carousel-gallary").owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: true,
-  navSpeed: 500,
-  autoplay: true,
-  autoplaySpeed: 650,
-  animateOut: "fadeOut",
-  responsive: {
-    0: {
-      items: 1,
-    },
-  },
-});
-
-$(".owl-carousel-testimonial").owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: true,
-  navSpeed: 500,
-  autoplay: true,
-  autoplaySpeed: 650,
-  animateOut: "fadeOut",
-  responsive: {
-    0: {
-      items: 1,
-    },
-    500: {
-      items: 2,
-    },
-    1000: {
-      items: 2,
-    },
-  },
+$(".owl-carousel-testimonial .owl-dot span").css({
+  background: "white",
+  width: "20px",
+  height: "5px",
 });

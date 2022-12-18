@@ -1,0 +1,39 @@
+:root {
+  --font-family-Ar: "Tajawal", sans-serif !important ;
+}
+.slider__heading h3,
+.slider__spacing,
+.steps .row .col span,
+.cofounder__heading,
+.main-heading,
+.main__btn,
+.cofounder__subh,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a,
+p,
+span {
+  font-family: var(--font-family-Ar);
+  letter-spacing: normal;
+}
+.cofounder__heading {
+  font-weight: bold;
+}
+.cofounder__text ul li::before {
+  content: "\f104";
+  margin-left: 5px;
+}
+.ourproducts {
+  height: 800px;
+}
+@media (max-width: 990px) {
+  .ourproducts {
+    height: 1000px;
+  }
+}
