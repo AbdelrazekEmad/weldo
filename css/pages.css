@@ -1,0 +1,19 @@
+/* About Page  */
+.owl-carousel-hero .item {
+  height: 40vh;
+}
+.slider__info .slider__heading {
+  margin-block-start: 4rem;
+}
+.cofounder {
+  margin: 0;
+}
+.counters {
+  height: 9rem;
+}
+.contact-droper {
+  background-color: var(--section-bg-color);
+}
+.contact-droper .cofounder__heading {
+  color: var(--secound-color);
+}
