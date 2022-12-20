@@ -53,6 +53,14 @@ ul {
 #scroll-top:hover {
   opacity: 1;
 }
+.wa-icon {
+  z-index: 1000;
+  background-color: #25d366;
+  width: calc(1.5rem + 1.75vw);
+  height: calc(1.5rem + 1.75vw);
+  line-height: calc(1.5rem + 1.75vw);
+  left: 0;
+}
 /* Start Upperbar  */
 .upperbar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -234,7 +242,7 @@ ul {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  height: 700px;
+  height: 1000px;
 }
 @media (max-width: 990px) {
   .ourproducts {
