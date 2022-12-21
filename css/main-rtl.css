@@ -29,11 +29,3 @@ span {
   content: "\f104";
   margin-left: 5px;
 }
-.ourproducts {
-  height: 800px;
-}
-@media (max-width: 990px) {
-  .ourproducts {
-    height: 1000px;
-  }
-}
