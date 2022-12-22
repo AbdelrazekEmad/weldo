@@ -15,22 +15,6 @@ $(".owl-carousel-hero").owlCarousel({
   },
 });
 
-$(".owl-carousel-gallary").owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: true,
-  navSpeed: 500,
-  autoplay: true,
-  autoplaySpeed: 650,
-  animateOut: "fadeOut",
-  rtl: true,
-  responsive: {
-    0: {
-      items: 1,
-    },
-  },
-});
-
 $(".owl-carousel-testimonial").owlCarousel({
   loop: true,
   margin: 10,

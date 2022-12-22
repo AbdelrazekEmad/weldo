@@ -360,6 +360,14 @@ ul {
   background-color: var(--secound-color);
   color: white;
 }
+.youtube__btn {
+  background-color: var(--secound-color);
+  color: white;
+}
+.youtube__btn:hover {
+  background-color: var(--main-color);
+  color: var(--secound-color);
+}
 
 /* Start testimonial  */
 .testimonial {
