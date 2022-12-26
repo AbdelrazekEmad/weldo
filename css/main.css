@@ -201,6 +201,14 @@ ul {
 /* Start cofounder */
 .cofounder {
   margin-top: -10rem;
+  height: 100%;
+}
+.cofounder .video {
+  height: 500px;
+}
+.cofounder .video iframe {
+  width: 100%;
+  height: 100%;
 }
 .cofounder .image img {
   width: 100%;
