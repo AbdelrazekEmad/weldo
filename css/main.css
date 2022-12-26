@@ -204,7 +204,7 @@ ul {
   height: 100%;
 }
 .cofounder .video {
-  height: 500px;
+  height: 700px;
 }
 .cofounder .video iframe {
   width: 100%;
@@ -304,6 +304,9 @@ ul {
 }
 .gallary .cofounder__subh {
   color: var(--secound-color) !important;
+}
+.gallery-container a { 
+  cursor: pointer;
 }
 
 /* Start Quote */
