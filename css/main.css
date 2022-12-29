@@ -203,12 +203,8 @@ ul {
   margin-top: -10rem;
   height: 100%;
 }
-.cofounder .video {
-  height: 700px;
-}
 .cofounder .video iframe {
   width: 100%;
-  height: 100%;
 }
 .cofounder .image img {
   width: 100%;
@@ -305,7 +301,7 @@ ul {
 .gallary .cofounder__subh {
   color: var(--secound-color) !important;
 }
-.gallery-container a { 
+.gallery-container a {
   cursor: pointer;
 }
 
@@ -474,14 +470,16 @@ footer {
 footer .mail__input input:focus-visible {
   outline: 0;
 }
-
 .header .lead {
   max-width: 620px;
 }
-
-/** Below CSS is completely optional **/
-
 .gallery-item {
   width: 200px;
   padding: 5px;
+}
+
+/* 404 error section  */
+.error h2 {
+  font-size: 4rem;
+  color: var(--secound-color);
 }
